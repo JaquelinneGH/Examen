@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#76D7C4">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Jaquelinne Garcìa Hernàndez"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="7T11"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="223dp"
+        android:layout_height="63dp"
+        android:fontFamily="cursive"
+        android:text="Ingenierìa en Tecnologìas de la Informaciòn y Comunicaciones"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="342dp"
+        android:layout_height="77dp"
+        android:fontFamily="cursive"
+        android:text="Desarrollo de Aplicaciones para dispositivos mòviles"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="309dp"
+        android:layout_height="167dp"
+        app:srcCompat="@mipmap/tesoem"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+</android.support.constraint.ConstraintLayout>

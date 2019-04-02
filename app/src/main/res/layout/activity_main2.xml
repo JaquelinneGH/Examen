@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="#76D7C4">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:fontFamily="serif-monospace"
+        android:text="Saludar"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="166dp"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+        android:fontFamily="serif-monospace"
+        android:text="Saludar mensaje"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombre"
+        android:textAlignment="center"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="174dp"
+        android:layout_height="52dp"
+        android:background="@color/colorAccent"
+        android:fontFamily="serif-monospace"
+        android:text="Operaciones"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+</android.support.constraint.ConstraintLayout>
